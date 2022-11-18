@@ -11,7 +11,7 @@
 */
 
 let dez = 10
-let quatro = 10
+let quatro = 222
 if (dez >= quatro) {
     console.log('sim')
 } else {
