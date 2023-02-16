@@ -10,8 +10,8 @@
 !== diferente estrito (valor e tipo)
 */
 
-let dez = 10
-let quatro = 10
+let dez = 1000
+let quatro = 111  // criando  variaveis com o let
 
 let um = 1
 let dois = 1
@@ -25,10 +25,10 @@ if (dez > quatro) {
 
 // MENOR QUE O VALOR DA ESQUERDA
 if (dez < quatro) {
-    console.log(' Sim quatro é maior que 10')
+    console.log(quatro + ' Sim quatro é MAIOR que 10')
 }
 else {
-    console.log('Não é maior que quatro')
+    console.log('não ,  esse valor contido na variavel DEZ que é o valor de ' + dez + ' NÃO é menor que o contido no valor da varaivel quatro que é de ' + quatro)
 }
 if (dez >= quatro) {
     console.log("Sim dez é maior")
